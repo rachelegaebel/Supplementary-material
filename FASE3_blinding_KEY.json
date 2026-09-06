@@ -1,0 +1,173 @@
+{
+  "seed": 20260806,
+  "blocks": {
+    "A": [
+      {
+        "pos": 1,
+        "id": "01",
+        "decision": "Q1 Feasibility",
+        "market": "Milano/IT",
+        "density": "dense",
+        "domain": "facility-strategy",
+        "RacqI_label": "B",
+        "naked_label": "A"
+      },
+      {
+        "pos": 2,
+        "id": "13",
+        "decision": "C1 Branding",
+        "market": "—",
+        "density": "control",
+        "domain": "control",
+        "RacqI_label": "A",
+        "naked_label": "B"
+      },
+      {
+        "pos": 3,
+        "id": "05",
+        "decision": "Q3 Market report",
+        "market": "Italy",
+        "density": "dense",
+        "domain": "facility-DB",
+        "RacqI_label": "A",
+        "naked_label": "B"
+      },
+      {
+        "pos": 4,
+        "id": "08",
+        "decision": "Q4 What's new",
+        "market": "Czech",
+        "density": "thin",
+        "domain": "ecosystem",
+        "RacqI_label": "B",
+        "naked_label": "A"
+      }
+    ],
+    "B": [
+      {
+        "pos": 1,
+        "id": "02",
+        "decision": "Q1 Feasibility",
+        "market": "Praga/CZ",
+        "density": "thin",
+        "domain": "facility-strategy",
+        "RacqI_label": "B",
+        "naked_label": "A"
+      },
+      {
+        "pos": 2,
+        "id": "14",
+        "decision": "C2 Design/build",
+        "market": "—",
+        "density": "control",
+        "domain": "control",
+        "RacqI_label": "A",
+        "naked_label": "B"
+      },
+      {
+        "pos": 3,
+        "id": "09",
+        "decision": "Q6 Participation",
+        "market": "Italy",
+        "density": "dense",
+        "domain": "ecosystem",
+        "RacqI_label": "A",
+        "naked_label": "B"
+      },
+      {
+        "pos": 4,
+        "id": "12",
+        "decision": "Q8 Policy",
+        "market": "Czech",
+        "density": "thin",
+        "domain": "ecosystem",
+        "RacqI_label": "B",
+        "naked_label": "A"
+      }
+    ],
+    "C": [
+      {
+        "pos": 1,
+        "id": "10",
+        "decision": "Q6 Participation",
+        "market": "Czech",
+        "density": "thin",
+        "domain": "ecosystem",
+        "RacqI_label": "A",
+        "naked_label": "B"
+      },
+      {
+        "pos": 2,
+        "id": "03",
+        "decision": "Q2 Commercial",
+        "market": "Milano/IT",
+        "density": "dense",
+        "domain": "facility-strategy",
+        "RacqI_label": "A",
+        "naked_label": "B"
+      },
+      {
+        "pos": 3,
+        "id": "15",
+        "decision": "C3 Acoustics",
+        "market": "—",
+        "density": "control",
+        "domain": "control",
+        "RacqI_label": "B",
+        "naked_label": "A"
+      },
+      {
+        "pos": 4,
+        "id": "06",
+        "decision": "Q3 Market report",
+        "market": "Czech",
+        "density": "thin",
+        "domain": "facility-DB",
+        "RacqI_label": "A",
+        "naked_label": "B"
+      }
+    ],
+    "D": [
+      {
+        "pos": 1,
+        "id": "16",
+        "decision": "C4 Sales",
+        "market": "—",
+        "density": "control",
+        "domain": "control",
+        "RacqI_label": "B",
+        "naked_label": "A"
+      },
+      {
+        "pos": 2,
+        "id": "07",
+        "decision": "Q4 What's new",
+        "market": "Italy",
+        "density": "dense",
+        "domain": "ecosystem",
+        "RacqI_label": "A",
+        "naked_label": "B"
+      },
+      {
+        "pos": 3,
+        "id": "04",
+        "decision": "Q2 Commercial",
+        "market": "Praga/CZ",
+        "density": "thin",
+        "domain": "facility-strategy",
+        "RacqI_label": "A",
+        "naked_label": "B"
+      },
+      {
+        "pos": 4,
+        "id": "11",
+        "decision": "Q8 Policy",
+        "market": "Italy",
+        "density": "dense",
+        "domain": "ecosystem",
+        "RacqI_label": "A",
+        "naked_label": "B"
+      }
+    ]
+  }
+}
