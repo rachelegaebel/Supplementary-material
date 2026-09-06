@@ -1,9 +1,9 @@
 # RacqI thesis — supplementary materials
 
 This repository accompanies the bachelor thesis on **RacqI**, a grounded vertical agent for
-racquet-sports facilities (Rachele Gaebel, Università Bocconi, 2026). It holds the frozen
-study materials, the anonymised questionnaire exports, the de-blinding key, and the analysis
-code, so that the empirical results in Chapter 5 can be reproduced independently.
+racquet-sports facilities. It holds the frozen study materials, the anonymised questionnaire 
+exports, the de-blinding key, and the analysiscode, so that the empirical results in Chapter 
+5 can be reproduced independently.
 
 The study compares RacqI, in its full grounded configuration, against the same base model
 without grounding, on 16 strategic questions, across a dense market (Italy) and a thin one
