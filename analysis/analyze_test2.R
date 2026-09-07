@@ -1,4 +1,4 @@
-# =============================================================================
+
 # Test 2 - reproducible analysis (R version) -- RacqI vs naked, blind rater study
 # Mirrors analyze_test2.py and reproduces the same numbers.
 #
@@ -9,11 +9,11 @@
 # pre-registered key, VERIFIED against the actual answer text of both surveys
 # (see the PASS check in analyze_test2.py). It is embedded here so R needs no
 # JSON dependency and the mapping is transparent.
-# =============================================================================
+
 
 BASE <- "/Users/rache/Library/Mobile Documents/com~apple~CloudDocs/Bocconi/Tesi/Test2_dataset"
 
-## ---- de-blinding key (verified) --------------------------------------------
+## de-blinding key 
 keymap <- read.csv(text="
 block,pos,id,density,racqi_label
 A,1,01,dense,B
@@ -35,7 +35,7 @@ D,4,11,dense,A
 ", header=TRUE, colClasses="character", strip.white=TRUE)
 kget <- function(B, pos) keymap[keymap$block==B & keymap$pos==pos, ]
 
-## ---- QID layouts (fixed by the survey structure) ---------------------------
+## QID layouts (fixed by the survey structure) 
 # experts: per block, 4 pairs (answerA_qid, answerB_qid); dims _1=reasoning, _2=evidence
 exp_layout <- list(
   A=list(c(4,6),c(8,10),c(12,14),c(16,18)), B=list(c(21,23),c(25,27),c(29,31),c(33,35)),
@@ -45,7 +45,7 @@ ne_layout <- list(
   A=list(c(4,6,7),c(9,11,12),c(14,16,17),c(19,21,22)), B=list(c(25,27,28),c(30,32,33),c(35,37,38),c(40,42,43)),
   C=list(c(46,48,49),c(51,53,54),c(56,58,59),c(61,63,64)), D=list(c(67,69,70),c(72,74,75),c(77,79,80),c(82,84,85)))
 
-## ---- robust Qualtrics loader -----------------------------------------------
+## robust Qualtrics loader 
 load_qualtrics <- function(path){
   lines <- readLines(path, warn=FALSE)
   h <- which(startsWith(lines, "StartDate"))[1]           # the codes header row
@@ -54,7 +54,7 @@ load_qualtrics <- function(path){
 }
 num <- function(x){ x[x==""] <- NA; suppressWarnings(as.integer(x)) }
 
-## ---- de-blind -> long tables -----------------------------------------------
+## de-blind -> long tables 
 deblind_experts <- function(df){
   out <- list()
   for(B in names(exp_layout)) for(pos in seq_along(exp_layout[[B]])){
@@ -94,7 +94,7 @@ deblind_nonexperts <- function(df){
   list(tidy=do.call(rbind,out), fc=do.call(rbind,fc))
 }
 
-## ---- per-condition aggregates ----------------------------------------------
+## per-condition aggregates 
 aggregates <- function(df, dims){
   res <- data.frame()
   for(dim in dims) for(dens in c("dense","thin","control")) for(arm in c("RacqI","naked")){
@@ -108,7 +108,7 @@ aggregates <- function(df, dims){
   res
 }
 
-## ---- contrasts + gradient + retention --------------------------------------
+## contrasts + gradient + retention
 contrasts <- function(E,N,FC){
   dm <- function(df,i,a,dim) mean(df[df$id==i & df$arm==a, dim], na.rm=TRUE)
   ids <- sort(unique(E$id)); R <- data.frame()
@@ -124,7 +124,7 @@ contrasts <- function(E,N,FC){
   R
 }
 
-## ---- Krippendorff's alpha (ordinal) -- base R, no dependency ----------------
+## Krippendorff's alpha (ordinal) -- base R, no dependency 
 kripp_ordinal <- function(units){
   units <- units[sapply(units, length) >= 2]
   vals <- sort(unique(unlist(units))); K <- length(vals)
@@ -145,7 +145,7 @@ alpha_for <- function(df, dim){
   round(kripp_ordinal(units), 3)
 }
 
-## ---- controls attribution (3-case rule) ------------------------------------
+## controls attribution (3-case rule) 
 controls_attr <- function(E){
   txt <- paste(readLines(file.path(BASE,"DATASET_32_normalized.md"), warn=FALSE), collapse="\n")
   chunks <- strsplit(txt, "### \\[", perl=TRUE)[[1]]
