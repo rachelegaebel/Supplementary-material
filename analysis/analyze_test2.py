@@ -25,7 +25,7 @@ import numpy as np, pandas as pd
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))  # .../Test2_dataset
 KEY  = json.load(open(os.path.join(BASE, "blinding_key.json")))
 
-# ---- QID layouts (fixed by the Qualtrics survey structure) ------------------
+# QID layouts (fixed by the Qualtrics survey structure)
 # key blocks are letters A..D, in survey order. Each block = 4 question pairs.
 # EXPERTS: per pair (answerA_qid, answerB_qid); dims _1=reasoning, _2=evidence
 EXP_LAYOUT = {
@@ -57,7 +57,7 @@ def load_qualtrics(path):
     df = pd.read_csv(path, sep=";", header=hdr, dtype=str, keep_default_na=False)
     return df.drop(index=[0,1]).reset_index(drop=True)   # drop IT-labels + ImportId rows
 
-# ---- 1. self-verify the key against the actual answer text -------------------
+# 1. self-verify the key against the actual answer text 
 def _norm(x): return re.sub(r"[^a-z0-9]", "", re.sub(r"<[^>]+>", " ", x).lower())
 def verify_key():
     d = open(os.path.join(BASE, "DATASET_32_normalized.md")).read()
@@ -86,7 +86,7 @@ def verify_key():
                 ok = (Rin == it["RacqI_label"]); ok_all = ok_all and ok
     return ok_all
 
-# ---- 2. de-blind -> tidy long tables ---------------------------------------
+# 2. de-blind -> tidy long tables 
 def deblind_experts(df):
     rows = []
     for _, r in df.iterrows():
@@ -123,7 +123,7 @@ def deblind_nonexperts(df):
 def _int(s):
     return int(s) if s not in ("", None) else np.nan
 
-# ---- 3. per-condition aggregates -------------------------------------------
+# 3. per-condition aggregates 
 def aggregates(df, dims):
     out = []
     for dim in dims:
@@ -137,7 +137,7 @@ def aggregates(df, dims):
                                 **{f"pct{k}":d[k] for k in range(1,6)}))
     return pd.DataFrame(out)
 
-# ---- 4. contrasts + retention ----------------------------------------------
+# 4. contrasts + retention 
 def contrasts(E, N, FC):
     rows = []
     for idn in sorted(E.id.unique()):
@@ -155,7 +155,7 @@ def contrasts(E, N, FC):
     ret = (grad.loc["thin"] / grad.loc["dense"] * 100).round(0)
     return R, grad.round(2), ret
 
-# ---- 5. Krippendorff's alpha (ordinal) -------------------------------------
+# 5. Krippendorff's alpha (ordinal) 
 def kripp_ordinal(units):
     units = [[int(x) for x in u] for u in units if len(u) >= 2]
     vals = sorted({v for u in units for v in u}); idx = {v:i for i,v in enumerate(vals)}; K = len(vals)
@@ -180,7 +180,7 @@ def alpha_table(df, dims):
         out[dim] = round(kripp_ordinal(units), 3)
     return out
 
-# ---- 6. controls attribution (3-case rule) ---------------------------------
+# 6. controls attribution (3-case rule) 
 def controls_attribution(E):
     d = open(os.path.join(BASE, "DATASET_32_normalized.md")).read()
     ans = {}
