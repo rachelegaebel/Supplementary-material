@@ -1,9 +1,9 @@
-# TEST 2 — DATASET 32 risposte VERBATIM (Fase 1) — 2026-08-06
+# Test 2 — 32 answers verbatim (phase 1) — 2026-08-06
 
-> **RacqI-Claude:** da `Human Comparison` (parole invariate; tabelle Word rese come righe `| cella | cella |`, nessuna riga aggiunta). **Nudo:** da `naked_claude_Opus4.8_FROZEN`.
-> [14] RacqI = risposta DEFINITIVA (~3060w); la run Test-1 era interrotta. **Non ancora normalizzato** (= Fase 2).
+> **RacqI-Claude:** from `Human Comparison` (words unchanged; Word tables rendered as `| cell | cell |` rows, no rows added). **Naked:** from `naked_claude_Opus4.8_FROZEN`.
+> [14] RacqI = final answer (~3060w); the Test 1 run was interrupted. **Not yet normalised** (= phase 2).
 
-## [01] — Q1 Feasibility · Milano/IT
+## [01] — Q1 Feasibility · Milan/IT
 
 ### [01] · RacqI-Claude
 
@@ -29,7 +29,7 @@ The central risk is competitive, not demographic: five padel operators within 1.
 Verdict
 Proceed with a 4-court indoor padel facility at this site, on the explicit condition that the facility differentiates on coaching, programming and community rather than competing on court count alone in an already well-served catchment. The location fundamentals — population, wealth, access, school proximity — are strong; the constraint to manage, not a reason to walk away, is competitive intensity. The investment figure itself is not yet decision-grade: CapEx, OpEx and payback all depend on Milan-specific cost inputs that are not yet in evidence, and no figure should be quoted until they are sourced and run through a proper cost model. Confidence: Medium — the demand, access and competitive-density reads are robust and current, but national player-base figures remain contested between sources and could not be reconciled to this catchment, no CapEx/OpEx/payback figures can yet be stated with confidence, and clear-height and ground-condition confirmation at this exact address would sharpen the call materially before committing capital.
 
-### [01] · Nudo Claude (Opus 4.8)
+### [01] · Naked Claude (Opus 4.8)
 
 Padel Facility Feasibility Study — Via Rubattino 81, Milano
 Recommendation: This is a viable site for a 4–6 court indoor/covered facility, but its attractiveness hinges on securing enough land (you need ~4,000–7,000 m²) at industrial-lease rates. Proceed to a signed letter of intent on a specific parcel before committing capital, because Rubattino's constraint is space and competition density, not demand.
@@ -75,7 +75,7 @@ Immediate next steps, in order: (1) identify a specific available parcel and con
 
 ---
 
-## [02] — Q1 Feasibility · Praga/CZ
+## [02] — Q1 Feasibility · Prague/CZ
 
 ### [02] · RacqI-Claude
 
@@ -101,7 +101,7 @@ A precise payback figure cannot honestly be stated from the evidence to hand: lo
 Both major capex lines — building envelope and court kit — are entirely unconfirmed against local pricing; get contractor and court-manufacturer quotes before finalising any budget, since these could move the total materially. A local OpEx benchmark (energy, staffing) is also needed to convert this from a feasibility range into a bankable P&L. Six courts is the minimum viable scale identified in the benchmark evidence, not a buffer — undershooting the final design below this would reintroduce the fixed-cost trap the sizing analysis is built to avoid. Two background sources touching on cover-type economics and funding/partnership models are dated to 2025 (FMG Consulting, LEGEND SPORTS) and were not used for any figure in this analysis. None of these are deal-breakers: they are the specific, named steps that convert this from a strong locational and competitive case into a fully decision-grade investment package.
 Confidence: Medium. The catchment, competitive-gap and climate analysis are well evidenced; the CapEx side remains an open data gap — no shell or court-kit pricing was retrieved — so this stays not fully decision-grade until local quotes and a completed cross-currency P&L close that gap.
 
-### [02] · Nudo Claude (Opus 4.8)
+### [02] · Naked Claude (Opus 4.8)
 
 Padel Feasibility Study — Kolbenova 923/34a, Praha 9-Vysočany
 Recommendation: Proceed to detailed due diligence for a 4–6 court indoor facility. The site sits in a genuinely favorable spot within Prague's fast-growing padel market, but the recommendation is conditional on two things: (1) the specific plot's zoning and lease/purchase terms, and (2) a hard count of competing courts within a 15-minute drive, which has been rising quickly. Below I walk through location/catchment, sizing, space, and investment.
@@ -152,7 +152,7 @@ Lease vs. buy terms.
 
 ---
 
-## [03] — Q2 Commercial · Milano/IT
+## [03] — Q2 Commercial · Milan/IT
 
 ### [03] · RacqI-Claude
 
@@ -182,7 +182,7 @@ Ancillary revenue is not a discretionary add-on here — it is what makes the me
 The clearest constraint is proximity: five padel-offering facilities sit within roughly 2 km, including a 10-court commercial operator at Franco Scarioni (RSI Facility Database (Lookup)). Pricing meaningfully above the non-member median without a clear differentiator — hospitality quality, coaching pathway, or disciplined yield management — will struggle to fill peak slots against that supply. Pricing at or near the catchment median, backed by a genuinely built-out ancillary and programming layer, is the defensible route, and it directly funds the model rather than fighting it.
 Verdict: the membership-plus-pay-per-use structure works for this site, provided ancillary revenue is designed in from the outset rather than added later — target at least 30% of revenue from F&B, coaching, retail and corporate/events, and price the membership discount only as far as the ancillary attach-rate plan can cover it. Confidence: Medium — the pricing anchors are solid catchment medians, but the ancillary targets rest on cross-market operator experience rather than a Milan-specific P&L, and the recreational-spend benchmarks available for cross-checking are dated to 2025 with no newer figures retrieved. Key assumptions carried into this report: an indoor, standalone commercial facility of roughly 5–6+ courts (the minimum industry-cited threshold for standalone padel viability); positioning left open between a utilization-led and a hospitality-led stance, both priced out above; and 90-minute sessions as the reference unit. Sharpening the call further would mean actual local F&B attach-rate data once trading, and a firm court-count/positioning decision, which would let the payback and CapEx economics (a separate analysis) be tied directly to this revenue model.
 
-### [03] · Nudo Claude (Opus 4.8)
+### [03] · Naked Claude (Opus 4.8)
 
 Pricing & Revenue Strategy — Padel Facility, Via Rubattino 81, Milano
 Recommendation: Build a hybrid model anchored on pay-to-play (court booking) as the revenue core (~65–70% of turnover), with a light-touch membership layer for yield management rather than access. Do not copy the fitness-club "membership-first" model — padel demand in Italy is booking-led and social, and a heavy membership gate suppresses the casual and corporate volume that fills off-peak courts. Layer aggressive peak/off-peak differentiation and disciplined ancillary revenue (F&B, coaching, retail, events) on top. This is what makes or breaks unit economics, because a padel court is a fixed-capacity asset whose profitability is almost entirely a function of occupancy rate × yield per hour.
@@ -237,7 +237,7 @@ Bottom line: pay-to-play core + three-tier membership overlay + a 40–50% peak/
 
 ---
 
-## [04] — Q2 Commercial · Praga/CZ
+## [04] — Q2 Commercial · Prague/CZ
 
 ### [04] · RacqI-Claude
 
@@ -283,7 +283,7 @@ Two evidence caveats bear on confidence: the peak/off-peak demand-concentration 
 A pay-per-use-first, tiered-membership-second architecture — peak pricing anchored near the local non-member benchmark, off-peak priced to fill the trough through programming, and a hospitality-lite ancillary layer built around coaching rather than a full clubhouse — fits this catchment's scarcity-of-padel, tennis-saturated, mid-premium-income profile well. It works, provided the facility resolves its positioning stance (utilization vs social) before finalising staffing and space allocation, and provided off-peak hours are actively programmed rather than passively discounted. Revisit membership pricing and the peak/off-peak split after the first utilisation cycle rather than locking them in at launch.
 Confidence: Medium — grounded in solid catchment-level facility and demographic data, but resting on general padel-market demand patterns rather than Vysočany-specific booking behaviour, with one supporting pricing source dated 2025 and not independently refreshed.
 
-### [04] · Nudo Claude (Opus 4.8)
+### [04] · Naked Claude (Opus 4.8)
 
 Recommendation: Build the model around dynamic peak/off-peak court pricing as the primary engine (~65–70% of revenue), with a light membership layer that sells commitment and off-peak fill rather than deep discounts, plus a deliberately developed ancillary stack. Do not copy a fitness-club membership model — padel economics are court-hour driven, and your scarce asset is prime-time court time, which you should price accordingly.
 Here is the reasoning and structure.
@@ -350,7 +350,7 @@ Implications & What to Watch
 The clearest structural fact in this market is fragmentation: no single operating model dominates outright, and the unclassified segment is large enough to materially shift the picture once resolved. Anyone benchmarking against this data should treat the commercial segment's lead as provisional and re-check it as the database's type-classification coverage improves. The absence of an indoor/outdoor split is a genuine data gap worth flagging to operators and market entrants — given Italy's shoulder-season revenue exposure implied by the climate data, that split would materially change how comparable any two facilities' economics really are. Finally, the demographic backdrop — a smaller core-active base relative to total population, and a still-moderate sport-spend share of disposable income — suggests continued growth is more likely to come from deepening participation within existing urban/suburban catchments than from broad population-wide penetration.
 Caveat: figures above reflect the facility database's current classification coverage; the "Unknown" type bucket, the missing indoor/outdoor field, and the absence of an absolute national population figure are genuine gaps, not zero values, and should be re-checked as database and demographic coverage are updated.
 
-### [05] · Nudo Claude (Opus 4.8)
+### [05] · Naked Claude (Opus 4.8)
 
 Bottom line: Italy is the most padel-saturated large market in Europe by court count, but growth has clearly plateaued after the 2021–2023 boom. If you're evaluating entry, the strategic question is no longer "is there demand" but "is this specific catchment already over-supplied" — because national averages now hide sharp local oversupply.
 Here are the best available figures, with sourcing flagged.
@@ -399,7 +399,7 @@ Implications and what to watch
 The structural story is that Czech padel supply is currently being written by commercial operators building fewer, larger, pricier venues, with clubs, municipal providers and schools filling in smaller sites around them. The open question worth tracking is whether that balance holds as the market matures — a rise in club, municipal or public-sector court counts would signal broadening participation infrastructure rather than continued for-profit consolidation, and would be visible in the next facility-count and courts-per-facility read. A second thing to track is the indoor/outdoor mix itself: given the outdoor revenue penalty implied by the climate data, any future data collection on construction type would materially sharpen how much of current commercial capacity is climate-exposed. Finally, per-capita density should be re-read each time new facilities are added to the database, since a market this size can move noticeably with just a handful of new sites.
 Caveat: this is a database read, not a market census — coverage gaps are possible, no indoor/outdoor field exists yet, and the population and economic context are national/regional aggregates rather than padel-specific participation data.
 
-### [06] · Nudo Claude (Opus 4.8)
+### [06] · Naked Claude (Opus 4.8)
 
 The Czech market is small enough that a proper census is cheap and worth doing.
 What I can say with confidence about the shape of the market :
@@ -438,7 +438,7 @@ Padel's competition at the Taranto 2026 Mediterranean Games (22–28 August) as 
 Caveats
 This digest draws on local and specialist Italian outlets over a roughly three-week window (15–28 July 2026); coverage on Locorotondo and Noventa comes from municipal-focused or hyperlocal outlets rather than national press, and none of the retrieved evidence covers national FITP regulatory action, participation statistics, or market-size data for the period — those would need separate, dedicated evidence. The Salerno item does not give a specific number of health-village consultations, and the Gaiarine profile does not detail further court-count or league-status specifics beyond the club's stated Serie A ambition; both points should be read as open rather than settled.
 
-### [07] · Nudo Claude (Opus 4.8)
+### [07] · Naked Claude (Opus 4.8)
 
 Italy is the largest padel market in Europe by court count and player numbers, with growth that had been slowing from the explosive 2020–2022 pandemic-era boom toward a more mature, consolidating phase. The Federazione Italiana Tennis e Padel (FITP) governs the sport, having absorbed padel into its remit — the name change to include "Padel" itself reflected the sport's scale.
 On the professional side, Premier Padel (backed by QSI, and having merged the old World Padel Tour circuit) is the top tour, and Italy has hosted stops — including events around Rome. Italian players had been rising but the elite ranks remained dominated by Spanish and Argentine players.
@@ -474,7 +474,7 @@ Retail and supplier commitment to padel at scale — ISPO's dedicated village is
 Caveats
 This is global market context, not a Czech Republic news round-up — no facility, federation, or government item specific to the Czech Republic appeared in the retrieved evidence for the period. One additional source on hospitality and padel investment was identified but was inaccessible beyond its headline and could not be used for any specific claim. Figures cited above (investment amounts, court counts, exhibitor and visitor numbers) are quoted directly from the named sources; none were computed or estimated.
 
-### [08] · Nudo Claude (Opus 4.8)
+### [08] · Naked Claude (Opus 4.8)
 
 The reliable primary sources for Czech padel are:
 Český padelový svaz (Czech Padel Association) — the national federation, for sanctioning, ranking, tournament calendar, and membership/court-count figures. Their site and social channels are where openings and competitive developments surface first.
@@ -510,7 +510,7 @@ Whether the Italian Tennis Federation moves toward a more professionalised, data
 Caveats
 Beginner-onboarding and under-represented-group recommendations lean on Great Britain's 2024 LTA strategy as a cross-market analogue rather than Italian evidence, and its 2024–2026 numeric targets are stale relative to today; the Gulf-states comparison is 2025 data offered only as a market-context illustration, not Italian evidence; Italy-specific participation data broken out by gender, age, disability, club size, or coaching capacity is not present in the retrieved evidence; the Eurostat activity split dates to EHIS 2019; and the federation-governance critique comes from a single qualitative expert exchange (an emerging signal, not a corroborated multi-source trend) and should be treated as directional rather than definitive.
 
-### [09] · Nudo Claude (Opus 4.8)
+### [09] · Naked Claude (Opus 4.8)
 
 Recommendation
 Prioritize beginner conversion infrastructure over awareness campaigns. Italy's padel problem in 2024–25 is not awareness — it's that the sport peaked around 2022–23, court supply overbuilt, and the marginal new player now faces friction: no partners, no structured entry, intimidating "already-good" open courts. The highest-ROI lever is a systematic first-touch-to-habit funnel, backed by targeting the three under-penetrated segments (women, 40+, youth/schools) and distribution partnerships that put a racket in hands you don't have to acquire one by one.
@@ -571,7 +571,7 @@ The UK model (as of 2024) rests on two partnership types operating together: mul
 What to watch, and what remains open
 The most important open item is the absence of any Czech-specific padel participation, court-count, or demographic dataset — the entire strategy above is a transplant of British, US, and Middle Eastern structural patterns onto an unmeasured domestic market, and the Eurostat figure cited is a general sport-activity number from 2019, not padel-specific (Eurostat). Before any target-setting or capital commitment, establishing a Czech court census and a baseline participation survey should be the first practical step, since every downstream campaign, coaching-workforce, or partnership target above is currently unanchored to domestic numbers. Separately, the UK evidence above dates to 2024 and the Middle East evidence to 2025, with no newer figures available in the current evidence set (Lawn Tennis Association (LTA), Lawn Tennis Association (LTA), Playtomic (strategy&, Part of the BOC network)), so the British 2024–2029 targets referenced should be treated as directional rather than current-state benchmarks. Watch, in order of priority: whether a Czech tennis federation or equivalent body moves to formalise a padel development plan (as happened in Britain); whether court-supply growth in Czech cities begins outpacing coach-certification capacity (the exact bottleneck the USTA and LTA both moved deliberately to avoid); and whether early Czech operators adopt free-trial, low-commitment onboarding for under-represented groups before defaulting to a fully paid model.
 
-### [10] · Nudo Claude (Opus 4.8)
+### [10] · Naked Claude (Opus 4.8)
 
 Strategy: Growing Padel Participation in the Czech Republic
 Recommendation: Treat the Czech Republic as an early-growth market where the binding constraint is conversion and retention of beginners, not awareness or court supply per se. Concentrate your effort on a structured beginner funnel (trial → coached course → social league → membership), anchored by tennis-club partnerships and corporate channels, and target the two most winnable under-represented groups: women and the 35–55 recreational-sport segment. Campaigns should drive people into a structured first session, not merely generate impressions.
@@ -626,7 +626,7 @@ Design new courts and major renovations to UNI 12023 specifications immediately,
 What to watch, and caveats
 Watch for UNI 12023 references migrating into municipal permitting checklists or insurance underwriting criteria, and for any restructuring of FITP that formally separates padel governance from tennis. Watch also for the consolidation wave (closures among the 9,730-facility base) prompting a policy response — either tighter minimum-standard enforcement or, less likely on current evidence, a support programme for professionalisation. The central caveat is coverage: several sub-topics the query names have no Italy-specific, dated evidence in this run, several other retrieved sources are stale (2023–2025 market data) or non-Italian, and the Malta planning case, while directionally useful, is one jurisdiction's decision, not an established Italian or European pattern.
 
-### [11] · Nudo Claude (Opus 4.8)
+### [11] · Naked Claude (Opus 4.8)
 
 Recommendation
 Treat this as a compliance-cost inflation problem, not a set of discrete deadlines. The direction of travel across all seven areas is the same: obligations that today apply to "large" or "public" operators are being pushed down onto smaller commercial premises, and the padel-specific tailwind of easy funding and permissive planning is fading. Your priority actions now: (1) get an energy audit and put any new build to near-zero-energy standard, since retrofitting later is far costlier; (2) assume the SuperBonus/facilitated-credit era is over and underwrite new projects on unsubsidised economics; (3) formalise employment and data-protection practices before enforcement reaches your size band; and (4) engage your comune early on planning classification, which is where most padel-specific regulatory risk actually sits.
@@ -688,7 +688,7 @@ None of this is happening in a vacuum. The wider European padel investment clima
 What to watch, and what to do now
 The concrete, evidence-backed to-do list for the next twelve months is short and administrative: align payroll and HR systems for the 2026 CSSZ unified reporting change; secure CBAM/customs guidance and consider Authorised Declarant status before signing new court-kit import contracts; commission a tax advisor to model the CIT/VAT/PIT consolidation package against the specific entity structure; and run a data-protection and financial-reporting audit covering booking-platform and payment data. In parallel, treat Czech sport-funding policy, accessibility mandates and any padel-specific federation or Olympic-related development as open questions to monitor actively — their absence from the current evidence base is a gap to watch closing, not a settled "no change" signal, and operators would be well served by tracking Czech Ministry of Regional Development and Czech Olympic Committee / Czech Tennis Federation (padel's governing home in Czechia) communications directly over the next year given the limits of what is retrieved here.
 
-### [12] · Nudo Claude (Opus 4.8)
+### [12] · Naked Claude (Opus 4.8)
 
 Recommendation
 Treat this as a compliance-and-cost planning exercise, not a crisis. The dominant near-term pressures for Czech padel operators are (1) EU energy-efficiency and building-performance rules landing via Czech transposition, (2) the phased VAT/tax environment following the 2024 consolidation package, and (3) EU-driven sustainability and data obligations that mostly hit larger operators but create contractual spillover for smaller ones. Prioritize energy and tax now; monitor the rest. Below I flag which items are firm versus speculative, because much depends on transposition timing that is genuinely uncertain.
@@ -734,7 +734,7 @@ Verdict
 Build the name and identity around one primary stance you can genuinely fund and staff — not the stance that sounds best. In an established local market, make that stance visually distinctive against named rivals; in a new market, make it simple and legible to people who've never seen padel. Constraint to manage, not a deal-breaker: without knowing your target segment, budget tier, and local competitive set, treat the choice of stance and its operational coherence as the one input to lock down before finalising the name — everything else (colour palette, tagline, sponsorship fit) should follow from that choice rather than precede it.
 Assumptions: commercial (non-member-club) padel facility assumed as the default facility type, since none was specified — a member-club variant would treat "community" as a constitutional purpose funded by dues rather than a staffed retention programme, which changes the naming tone toward "club" language rather than "brand" language. Local competitive density and target segment were not provided, so both established-market and new-market naming logics are addressed above rather than assumed. Confidence: Medium — the positioning framework and case evidence are well-grounded; a facility-specific naming recommendation would sharpen with your actual catchment's competitive set and your budget tier.
 
-### [13] · Nudo Claude (Opus 4.8)
+### [13] · Naked Claude (Opus 4.8)
 
 Recommendation: Anchor the brand to a clear positioning choice before touching names or logos. In most markets padel is still early enough that you can own a position — but "premium social club" is already crowding. Pick a lane based on your catchment's gap (aspirational-premium, high-performance/competitive, accessible/high-volume, or lifestyle-social), then let naming and identity follow from it. A distinctive brand built on the wrong position loses to a generic brand on the right one.
 1. Positioning first (the decision that constrains everything else)
@@ -802,7 +802,7 @@ Verdict
 Padel architecture works when six decisions are made in the right order and none of them is treated as optional: confirm the site clears the noise gate before committing capital; decide indoor versus outdoor as a structural and commercial choice, not a budget afterthought, recognising that indoor generally wins on occupancy resilience outside warm-climate markets provided the shell specification is not cut to the bone; get the enclosure, glazing and surface spec right because it is largely non-negotiable under FIP and safety standards; design internal layout and circulation to route players past monetisable space rather than around it; specify lighting and ventilation as compliance issues as much as playability ones; and size the whole building to a court count — five to six courts minimum — that can actually absorb its own fixed costs, using a padel-dimensioned structural grid so that scale can be added later without touching the frame. Executed in that order, a padel facility is a sound and increasingly proven built-asset class across most of Europe; executed out of order — site chosen before the noise question is asked, or a four-court shell built to keep initial capital low — the building itself becomes the constraint that caps the business.
 Confidence: Medium. The architectural and regulatory guidance here is well evidenced (SAPCA, Racquet Sports Institute, Italian regulatory sources) but is UK- and Italy-specific in places — noise-assessment distances, building-permit classifications, and minimum clear-height rules are all jurisdiction-specific and need local professional confirmation before use in an actual planning submission. The cost composition is an orientation model built on published benchmark bands and an assumed regional factor, not a quoted price, and the six-court economics benchmark is drawn from US-dollar evidence that has not been converted to euros — treat the margin pattern as robust and the absolute figures as illustrative only.
 
-### [14] · Nudo Claude (Opus 4.8)
+### [14] · Naked Claude (Opus 4.8)
 
 Recommendation: Design around court utilization economics first, everything else second. Your facility lives or dies on peak-hour occupancy and off-peak cost control. Optimize the layout to maximize sellable court-hours, minimize the staff and energy needed to run them, and protect the premium (prime-time) inventory that generates most of your revenue.
 1. Court count, orientation, and structure
@@ -883,7 +883,7 @@ The table below consolidates the mitigation levers discussed above by where they
 The structural takeaway is that padel acoustics is not one problem but three, and each has its own fix: neighbour noise is solved primarily by orientation and setback before a single wall is specified; in-hall reverberation is solved primarily by ceiling absorption; and transmission into social space is solved by isolating the partition rather than the sightline. None of these are exotic interventions — they are largely a matter of sequencing the acoustic consultant's input to precede, not follow, the layout decision. Facilities that treat acoustics as a late-stage retrofit are the ones showing up in the closure and litigation cases; facilities that treat it as a first-stage design input are increasingly citing it as a commercial and reputational advantage.
 What would sharpen this further: a site-specific noise-propagation model run against the actual proposed orientation and nearest receptors (the kind MW Acoustic Consultants and similar specialists build), and — for the social-zone partition question and for exact setback/barrier dimensions specifically — a project-level acoustic brief rather than general bands, since no padel-specific numeric benchmark for those elements was available in the evidence reviewed. Confidence in the comparative dB figures cited (the 6 dB side-differential and 12 dB side-versus-end gap) is medium: they come from a single, if credible, UK research study, and UK planning guidance itself still lacks impact-noise-specific daytime criteria, meaning site context will always move the applicable numbers.
 
-### [15] · Nudo Claude (Opus 4.8)
+### [15] · Naked Claude (Opus 4.8)
 
 Recommendation: Treat noise as a siting-and-permitting risk first, an engineering problem second. The dominant issue in padel is the sharp, impulsive "crack" of the ball on the carbon racquet (peaks around 100–115 dB at source, per acoustic consultancy measurements cited in UK and Nordic planning disputes). It is the impulsive, tonal character — not average sound levels — that generates complaints and drives planning refusals, especially for outdoor and canopy courts near residential receptors. Design your acoustics around that reality: locate defensively, then attenuate.
 The three problem interfaces:
@@ -933,7 +933,7 @@ Scheduling discipline underpins all of it: 60–90 minute padel slots, a 7–14 
 Sequence coaching and membership first, events and sponsorship second, F&B and retail last — and make the premium peak tariff conditional on demonstrated peak utilisation in the 70–85% band. For a membership-led club the highest-return work is tier design, rolling payment cadence and the renewal conversation; for a utilisation-led club it is off-peak programming and yield management, with membership reframed as a pass or pack rather than a club. Under six courts, treat ancillary revenue as retention glue rather than a P&L line; above eight, build the programming stack deliberately, because that is where the margin inflection lives.
 Confidence: Medium. The structural logic — scale-dependent revenue mix, journey touchpoints, utilisation gating — is well grounded. Price points, conversion rates and revenue-per-court-hour are highly market-specific and must be validated locally; there are no reliable industry statistics on padel club income mix, though direct fees for court hire, memberships, tournaments and coaching are likely the most important source for most clubs (Padel Business Magazine). The Trento case is seven months old at the time of reporting, and one supporting membership case dates from 2024 with no newer data available. Naming the country and the club's court count would sharpen the pricing and F&B calls materially; this report is directional, not decision-grade on tariffs.
 
-### [16] · Nudo Claude (Opus 4.8)
+### [16] · Naked Claude (Opus 4.8)
 
 Recommendation: Anchor your ancillary revenue on coaching and F&B — together they should target 30–45% of total revenue in a mature club, versus court rental alone. Treat merchandise and events as margin-thin traffic drivers, not profit centers. Sequence offers to the customer journey rather than pushing everything at once: the single highest-yield intervention is capturing coaching and social-play commitments at the booking and post-session moments, when intent and satisfaction peak.
 Below is the breakdown by lever and by touchpoint. I flag the basis for figures explicitly; most public padel-economics data comes from operator disclosures, Deloitte/Playtomic market reports, and European club P&Ls, so treat ranges as directional benchmarks rather than precise forecasts — validate against your own catchment.

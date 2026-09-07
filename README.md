@@ -2,7 +2,7 @@
 
 This repository accompanies the bachelor thesis on **RacqI**, a grounded vertical agent for
 racquet-sports facilities. It holds the frozen study materials, the anonymised questionnaire 
-exports, the de-blinding key, and the analysiscode, so that the empirical results in Chapter 
+exports, the de-blinding key, and the analysis code, so that the empirical results in Chapter 
 5 can be reproduced independently.
 
 The study compares RacqI, in its full grounded configuration, against the same base model
@@ -18,8 +18,8 @@ quality) and non-expert decision-makers (perceived confidence).
 | `DATASET_32_normalized.md` | The same 32 answers in the form the raters saw (RacqI branding removed; content unchanged). Read by the analysis to self-verify the key. |
 | `Test 2 - Experts_anonymized.csv` | Expert-panel questionnaire export, **anonymised** (name, e-mail, IP address, and geolocation removed). |
 | `Test 2 - Non-experts_anonymized.csv` | Non-expert-panel questionnaire export, **anonymised** (same fields removed). |
-| `FASE3_blinding_KEY.json` | The pre-registered A/B → grounded/plain mapping (seed 20260806) that decodes the blind labels. |
-| `FASE3_pacchetti/qualtrics_EXPERTS_full.txt`, `qualtrics_BUSINESSMEN_full.txt` | The two survey definitions, used by the analysis to self-verify the key against the answer text. |
+| `blinding_key.json` | The pre-registered A/B → grounded/plain mapping (seed 20260806) that decodes the blind labels. |
+| `survey_definitions/qualtrics_EXPERTS_full.txt`, `qualtrics_BUSINESSMEN_full.txt` | The two survey definitions, used by the analysis to self-verify the key against the answer text. |
 | `analysis/analyze_test2.py` · `analysis/analyze_test2.R` | The analysis pipeline (Python and R): de-blinds the responses with the key, then computes the per-condition aggregates, the density gradient, retention, Krippendorff's ordinal alpha, and the controls attribution behind Chapter 5. |
 | `analysis/experts_tidy.csv` · `nonexperts_tidy.csv` · `dissociation_pairing.csv` | The de-blinded ratings and per-question contrasts, produced by the pipeline. |
 
@@ -31,7 +31,7 @@ From the `analysis/` folder:
 python analyze_test2.py      # or:  Rscript analyze_test2.R
 ```
 
-The script reads the anonymised questionnaire exports, `FASE3_blinding_KEY.json` and
+The script reads the anonymised questionnaire exports, `blinding_key.json` and
 `DATASET_32_normalized.md`, de-blinds each rating through the key, writes the three tidy
 files, and prints the aggregates, the gradient, the retention percentages, the alphas and
 the controls reading. The outputs are byte-for-byte identical whether the personal-data

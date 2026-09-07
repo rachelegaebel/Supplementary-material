@@ -16,14 +16,14 @@ Steps:
 
 Inputs (all in Test2_dataset/):
   Test 2 - Experts_*.csv, Test 2 - Non-experts_*.csv,
-  FASE3_blinding_KEY.json, DATASET_32_normalized.md,
-  FASE3_pacchetti/qualtrics_EXPERTS_full.txt, qualtrics_BUSINESSMEN_full.txt
+  blinding_key.json, DATASET_32_normalized.md,
+  survey_definitions/qualtrics_EXPERTS_full.txt, qualtrics_BUSINESSMEN_full.txt
 """
 import os, re, json, glob
 import numpy as np, pandas as pd
 
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))  # .../Test2_dataset
-KEY  = json.load(open(os.path.join(BASE, "FASE3_blinding_KEY.json")))
+KEY  = json.load(open(os.path.join(BASE, "blinding_key.json")))
 
 # ---- QID layouts (fixed by the Qualtrics survey structure) ------------------
 # key blocks are letters A..D, in survey order. Each block = 4 question pairs.
@@ -62,7 +62,7 @@ def _norm(x): return re.sub(r"[^a-z0-9]", "", re.sub(r"<[^>]+>", " ", x).lower()
 def verify_key():
     d = open(os.path.join(BASE, "DATASET_32_normalized.md")).read()
     ans = {}
-    for m in re.finditer(r"### \[(\d\d)\] · (RacqI-Claude|Nudo[^\n]*)\n\n(.*?)(?=\n### \[|\n## \[|\n---\n|\Z)", d, re.S):
+    for m in re.finditer(r"### \[(\d\d)\] · (RacqI-Claude|Naked[^\n]*)\n\n(.*?)(?=\n### \[|\n## \[|\n---\n|\Z)", d, re.S):
         ans[(m.group(1), 'R' if 'RacqI' in m.group(2) else 'N')] = _norm(m.group(3))
     def fp(t, other):
         for s in range(50, max(60, len(t)-60), 40):
@@ -71,7 +71,7 @@ def verify_key():
         return None
     ok_all = True
     for tag, fn in [("EXP","qualtrics_EXPERTS_full.txt"), ("NE","qualtrics_BUSINESSMEN_full.txt")]:
-        qtx = open(os.path.join(BASE, "FASE3_pacchetti", fn)).read()
+        qtx = open(os.path.join(BASE, "survey_definitions", fn)).read()
         btxt = {mm.group(1): mm.group(2) for mm in
                 re.finditer(r"\[\[Block:Block ([A-D])[^\]]*\]\](.*?)(?=\[\[Block:|\Z)", qtx, re.S)}
         for B in "ABCD":
@@ -184,7 +184,7 @@ def alpha_table(df, dims):
 def controls_attribution(E):
     d = open(os.path.join(BASE, "DATASET_32_normalized.md")).read()
     ans = {}
-    for m in re.finditer(r"### \[(\d\d)\] · (RacqI-Claude|Nudo[^\n]*)\n\n(.*?)(?=\n### \[|\n## \[|\n---\n|\Z)", d, re.S):
+    for m in re.finditer(r"### \[(\d\d)\] · (RacqI-Claude|Naked[^\n]*)\n\n(.*?)(?=\n### \[|\n## \[|\n---\n|\Z)", d, re.S):
         ans[(m.group(1),'R' if 'RacqI' in m.group(2) else 'N')] = m.group(3)
     cite = re.compile(r"\(([A-Z][^()]{2,60}?)\)")
     names = {"13":"Branding","14":"Design/build","15":"Acoustics","16":"Sales"}
